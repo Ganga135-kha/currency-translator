@@ -1,0 +1,98 @@
+.container{
+	height: 480px;
+	width: 100%;
+}
+.box{
+	height: 480px;
+	width: 80%;
+	margin-left: 10%;
+	background-color: #add8e66b;
+	/*display: flex;
+	flex-direction: column;*/
+	border-radius: 20px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	background-image: url(curr1.jpg);
+	position: absolute;
+}
+.box-box{
+	height: 480px;
+	width: 100%;
+	position: relative;
+	background-color: #e2cacfa8;
+	border-radius: 20px;
+}
+#display{
+	height: 80px;
+	width: 70%;
+	background-color: #38316954;
+	margin-top: 20px;
+	margin-left: 15%;
+	border-radius: 15px;
+	box-shadow: 15px 15px 15px  #88888859;
+	font-size: 2.2em;
+	line-height: 80px;
+	color: white;
+}
+#input{
+	height: 40px;
+	width: 30%;
+	background-color:#3e4f8ec2;
+	font-size: 1.5em;
+	color: white;
+}
+#result{
+	height: 40px;
+	width: 30%;
+	background-color: #3e4f8ec2;
+	font-size: 1.5em;
+	color: white;
+}
+
+#inputType{
+	height: 40px;
+	width: 30%;
+	background-color: #0d0e0e5c;
+	font-size: 1.2em;
+	color: white;
+}
+#resultType{
+	height: 40px;
+	width: 30%;
+	background-color: #0d0e0e5c;
+	font-size: 1.2em;
+	color: white;
+}
+
+
+
+#inputType option{
+	height: 20px;
+}
+
+
+
+
+
+
+#clear{
+	height: 40px;
+	width: 10%;
+	background-color: #0c173ab5;
+	border-radius: 7px;
+	box-shadow: 5px 5px 5px  #88888859;
+	color: white;
+	transition-duration: 0.4s;
+	font-size: 1.2em;
+}
+
+.ganga{
+	height: 40px;
+	width: 80%;
+	margin-left: 10%;
+	font-size: 1.6em;
+	color:#543037;
+	font-family:'EB Garamond', serif;
+	font-weight: bold;
+}

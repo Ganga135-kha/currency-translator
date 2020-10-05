@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Currency Converter</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+</head>
+<body>
+	<h1 style="text-align: center; font-family:'EB Garamond', serif; font-size: 2.5em;">Currency Calculator</h1>
+	<div class="container">
+		<div class="box">
+			<div class="box-box">
+			<div id="display"></div><br><br><br><br><br><br><br>
+			<input type="text" placeholder="input" id="input" value="1"><span style="font-size: 2em;">&nbsp;&nbsp;=&nbsp;&nbsp;</span>
+			<input type="text" placeholder="result" id="result" value="117.26"><br>
+
+
+			<select id="inputType" onchange="convertCurrency();">
+				<option value="USD">US Dollar(USD)</option>
+				<option value="INR">Indian Rupee(INR)</option>
+				<option value="NPR">Nepalese Rupee(NPR)</option>
+				<option value="JPY">Yen(JPY)</option>
+				<option value="AUD">Australian Dollar(AUD)</option>
+				<option value="SAR">Saudi Riyal(SAR)</option>
+			</select>
+				<span> &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>
+			<select id="resultType" onchange="convertCurrency();">
+				<option value="NPR">Nepalese Rupee(NPR)</option>
+				<option value="USD">US Dollar(USD)</option>
+				<option value="INR">Indian Rupee(INR)</option>
+				<option value="JPY">Yen(JPY)</option>
+				<option value="AUD">Australian Dollar(AUD)</option>
+				<option value="SAR">Saudi Riyal(SAR)</option>
+			</select><br><br><br><br>
+			<button id="clear">Clear</button>
+		</div>
+		</div>
+	</div>
+	<div class="ganga">Design By: gangakhdaka0808@gmail.com</div>
+	<script src="script.js"></script>
+</body>
+</html>
